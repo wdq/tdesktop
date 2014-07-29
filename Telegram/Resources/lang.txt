@@ -388,7 +388,7 @@ lng_emoji_no_recent: "Recent emojis will be here";
 
 lng_about_version: "Version {version}";
 lng_about_text: "Unofficial free messaging app based on [a href=\"https://core.telegram.org/mtproto\"]MTProto[/a] and
-[a href=\"https://core.telegram.org/api\"]Telegram API[/a] for speed and security
+[a href=\"https://core.telegram.org/api\"]Telegram API[/a] for speed and security.
 
 This software is licensed under [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] version 3,
 source code is available on [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a].";

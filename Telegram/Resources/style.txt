@@ -56,10 +56,10 @@ wndShadowShift: 1px;
 layerAlpha: 0.3;
 layerBG: #000;
 
-titleBG: #6389a8;
-titleColor: #0f8dcc;//rgb(20, 136, 210);
+titleBG: #000000;
+titleColor: #000000;//rgb(20, 136, 210);
 titleHeight: 39px;
-titleShadowColor: rgba(0, 0, 0, 24);//#ebebeb
+titleShadowColor: rgba(0, 0, 0, 1);//#ebebeb
 titleShadow: 1px;
 titleIconPos: point(7px, 7px);
 titleIconRect: sprite(160px, 100px, 26px, 26px);
@@ -72,7 +72,7 @@ titleGray: #777;
 titleGreen: #41a903;
 
 titleStatusColor: #999;
-titleTypingColor: #0080c0;
+titleTypingColor: #555555;
 
 statusFont: font(fsize);
 versionColor: #777;
@@ -81,7 +81,7 @@ sysBtnDelta: 6px;
 sysUpd: sysButton {
 	size: size(31px, 39px);
 	img: sprite(184px, 1px, 19px, 19px);
-	color: #c4d8e9;
+	color: #c0c0c0;
 	overColor: white;
 	duration: 150;
 }
@@ -100,8 +100,8 @@ sysCls: sysButton(sysUpd) {
 
 btnWhiteHover: #f5f5f5;
 btnBoxWhiteHover: #fafafa;
-btnYesColor: #0080c0;
-btnYesHover: #0073ad;
+btnYesColor: #000000;
+btnYesHover: #333333;
 btnNoColor: #8b8b8b;
 btnNoHover: #777;
 
@@ -122,7 +122,7 @@ btnDefIconed: iconedButton {
 }
 
 titleTextButton: flatButton {
-	color: #d4e3ef;
+	color: #c0c0c0;
 	overColor: #fff;
 	downColor: #fff;
 	bgColor: transparent;
@@ -155,14 +155,14 @@ btnDefBig: flatButton(btnDefFlat) {
 	overFont: font(23px);
 	height: 56px;
 }
-btnNextBG: #2fa9e2;
+btnNextBG: #000000;
 btnDefNext: flatButton(btnDefFlat) {
 	color: white;
 	overColor: white;
 	downColor: white;
 	bgColor: btnNextBG;
-	overBgColor: #279ad0;
-	downBgColor: #279ad0;
+	overBgColor: #555555;
+	downBgColor: #555555;
 }
 btnDefBack: flatButton(btnDefFlat) {
 	color: white;
@@ -616,7 +616,7 @@ dlgState: switcher {
 
 dlgSep: 8px;
 
-dlgShadowColor: rgba(0, 0, 0, 24);//#ebebeb
+dlgShadowColor: rgba(0, 0, 0, 1);//#ebebeb
 dlgShadow: 1px;
 
 dlgMinWidth: 260px;
@@ -680,7 +680,7 @@ dlgUnreadRadius: 2px;
 dlgBG: #FFF;
 dlgHoverBG: #f5f5f5;
 
-dlgActiveBG: #6a91b1;
+dlgActiveBG: #000000;
 dlgActiveUnreadColor: #5b94bf;
 dlgActiveUnreadBG: white;
 dlgActiveColor: white;
@@ -695,7 +695,7 @@ topBarForwardImg: sprite(45px, 112px, 9px, 16px);
 topBarBackPadding: margins(15px, 7px, 9px, 7px);
 topBarBackAlpha: 0.8;
 topBarBackImg: sprite(65px, 112px, 9px, 16px);
-topBarBackColor: #005faf;
+topBarBackColor: #000000;
 topBarBackFont: font(16px);
 topBarButton: flatButton(btnDefFlat) {
 	color: btnYesColor;
@@ -1073,7 +1073,7 @@ profileCheckDeltaX: 18px;
 profileCheckDeltaY: 1px;
 profileListNameFont: font(fsize semibold);
 profileListNameColor: #000;
-profileOnlineColor: titleTypingColor;
+profileOnlineColor: #00b300;
 profileOfflineColor: titleStatusColor;
 btnShareContact: flatButton(btnDefNext, btnDefBig) {
 	width: 145px;
